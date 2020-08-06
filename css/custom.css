@@ -1,0 +1,46 @@
+.navbar-brand{   
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+/* Change Nav Menu  */
+.navbar #myMenu .nav-item a{
+    color:#fff;
+}
+.navbar #myMenu .nav-item a:hover{
+    color: #F0AAB1;
+}
+.back-image{
+    background-position: bottom center; 
+    /* background-size: cover; */
+    background-repeat: no-repeat; 
+    background-size: cover;
+    min-height: 110vh;
+    border-radius: 0px;
+    padding-top: 100px;
+    margin-top: 50px;
+}
+/* Margin For Welcome OSmS Heading */
+.myHeading{
+    margin-top: 100px;
+    margin-left: 20px;
+}
+@media only screen and (max-width:700px){
+    .myClass{
+        margin-top: 350px;
+        text-align: center;
+    }
+}
+.font-italic{
+    font-size: 24px;
+}
+
+.fi-color{
+    color: #dc3545;
+}
+.fi-color:hover{
+    color: #e994a2;
+}
+.sidebar-sticky .newsidebar .nav-item .activecolor{
+    background-color:rgb(231,60	,70);
+}
